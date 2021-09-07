@@ -12,6 +12,6 @@ Install with npm:
 const { info, success, warn, error} = require('./log');
 info('info!');
 success('success!');
-error('error!');
-error('error!');
+warn('[module]', 'warn!');
+error('[module]', 'error!');
 ```
